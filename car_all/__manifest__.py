@@ -9,7 +9,12 @@
     'version': '10.0.1.0.0',
     'license': 'AGPL-3',
     'author': 'Denis Roussel',
-    'depends': ['car_pos_loyalty'
+    'depends': ['sale',
+                'purchase',
+                'point_of_sale',
+                'account',
+                'account_accountant',
+                'car_pos_loyalty'
     ],
     'data': [
     ],
